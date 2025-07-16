@@ -11,7 +11,7 @@ import java.util.*
 
 object DatabaseFactory {
     fun init() {
-    val url = "jdbc:mysql://137.184.51.241:3306/restaurantsDb?useSSL=false&serverTimezone=UTC"
+    val url = "jdbc:mysql://137.184.51.241:3306/restaurantsDb?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true"
     val driver = "com.mysql.cj.jdbc.Driver"
     val user = "osamadb"
     val password = "MsEscFin5@Aa"
