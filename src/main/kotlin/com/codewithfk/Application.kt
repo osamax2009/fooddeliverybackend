@@ -35,7 +35,7 @@ fun Application.module() {
     }
     install(CallLogging)
     configureRouting()
-    FirebaseService // Initialize Firebase
+    //FirebaseService // Initialize Firebase
     install(Authentication) {
         jwt {
             realm = "ktor.io"
